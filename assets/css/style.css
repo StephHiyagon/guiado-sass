@@ -1,0 +1,109 @@
+@charset "UTF-8";
+#container {
+  text-align: center; }
+  #container p {
+    font-family: Arial;
+    font-size: 13px;
+    color: #021e73; }
+  #container h1 {
+    font-family: Tahoma;
+    font-size: 45px;
+    color: #bf0449; }
+  #container h2 {
+    font-family: Helv├®tica sans-serif;
+    font-size: 35px;
+    color: #fd5e63; }
+
+.throw, table th, table td {
+  padding: 10px;
+  font-size: 20px;
+  width: 5%; }
+
+table {
+  text-align: center;
+  margin: auto; }
+  table th {
+    color: orange; }
+  table td {
+    color: #fd5e63; }
+
+footer h3 {
+  color: #fd5e63;
+  font-size: 20px; }
+
+.item-1 {
+  width: 10%; }
+
+.item-2 {
+  width: 20%; }
+
+.item-3 {
+  width: 30%; }
+
+.item-4 {
+  width: 40%; }
+
+.item-5 {
+  width: 50%; }
+
+.item-6 {
+  width: 60%; }
+
+.item-7 {
+  width: 70%; }
+
+.item-8 {
+  width: 80%; }
+
+.item-9 {
+  width: 90%; }
+
+.item-10 {
+  width: 100%; }
+
+.button.blue {
+  background-color: blue; }
+
+.button.red {
+  background-color: red; }
+
+.button.green {
+  background-color: green; }
+
+.button.yellow {
+  background-color: yellow; }
+
+.button.purple {
+  background-color: purple; }
+
+.button.pink {
+  background-color: pink; }
+
+#parrafo.blue {
+  background-color: blue; }
+
+#parrafo.red {
+  background-color: red; }
+
+#parrafo.green {
+  background-color: green; }
+
+#parrafo.yellow {
+  background-color: yellow; }
+
+#parrafo.purple {
+  background-color: purple; }
+
+#parrafo.pink {
+  background-color: pink; }
+
+.puma-icon {
+  background-image: url("/image/puma.png"); }
+
+.dog-icon {
+  background-image: url("/image/dog.png"); }
+
+.cat-icon {
+  background-image: url("/image/cat.png"); }
+
+/*# sourceMappingURL=style.css.map */

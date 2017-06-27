@@ -1,0 +1,80 @@
+@import "variables";
+
+#container{
+
+  text-align: $center-text;
+
+  p{
+    font-family: $font;
+    font-size: ($size*2) + 3;
+    color:$data-color;
+  }
+
+  h1{
+    font-family: Tahoma;
+    font-size: $size*9;
+    color:$princ-color;
+  }
+
+  h2{
+    font-family: Helvética sans-serif;
+    font-size: $size*7;
+    color:$secun-color;
+  }
+}
+
+.throw{
+  padding: $size*2;
+  font-size: $size*4;
+  width:5%;
+}
+
+table{
+    text-align: $center-text;
+    margin:auto;
+    th{
+      @extend .throw;
+      color:$contraste-color;
+    }
+
+    td{
+      @extend .throw;
+      color:$secun-color;
+    }
+  }
+
+  footer{
+    h3{
+      color:$secun-color;
+      font-size: $size*4;
+    }
+  }
+
+  @for $i from 1 to 11{
+    .item-#{$i}{
+      width:percentage($i/10);
+    }
+  }
+
+  $list: blue,red,green,yellow,purple,pink;
+
+  @for $i from 1 through length($list){
+    $current: nth($list,$i);
+    .button.#{$current}{
+      background-color: $current;
+    }
+  }
+
+  @each $item in $list{
+    #parrafo.#{$item}{
+      background-color: $item;
+    }
+  }
+
+  $lista: puma,dog,cat;
+
+  @each $animal in $lista{
+    .#{$animal}-icon{
+      background-image: url('/image/#{$animal}.png');
+    }
+  }
